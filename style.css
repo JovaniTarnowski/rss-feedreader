@@ -1,5 +1,5 @@
 html{
-    background-color: #E42C64;
+    background-color: #2c8be4;
 }
 
 
@@ -17,18 +17,19 @@ html{
     text-align: center;
 }
 
+
 h3{
     font-size: 25px;
     padding: 15px;
-
+    
 }
 
-span{
-    color: #614AD3;
+#selectionTitle{
+    color: #ee0000;
 }
 
 #date{
-    color:#E42C64;
+    color:#ee0000;
 }
 
 ul {
@@ -36,6 +37,11 @@ ul {
     font-size: 16px;
     text-transform: capitalize;
 }
+
+ul p{
+    padding-bottom: 15px;
+}
+
 
 ul a{
     text-decoration: none;
