@@ -7,7 +7,6 @@ document.querySelector('#date').innerHTML = date.toDateString();
 
 feednami.load(url)
 .then(feed => {
-    console.log(feed)
     textarea.value = ''
     for(let bob of feed.entries){
         //create a list element
